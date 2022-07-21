@@ -10,7 +10,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-builders/custom-webpack": "^13.1.0",
+    "@angular-builders/custom-webpack": "^14.0.0",
     "@angular/animations": "^14.1.0",
     "@angular/common": "^14.1.0",
     "@angular/compiler": "^14.1.0",
@@ -22,6 +22,7 @@
     "@types/chrome": "^0.0.193",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
+    "webpack-ext-reloader": "^1.1.9",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

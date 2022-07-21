@@ -19,6 +19,8 @@
   "permissions": [
     "activeTab",
     "webNavigation",
-    "tabs"
+    "tabs",
+    "scripting",
+    "storage"
   ]
 }

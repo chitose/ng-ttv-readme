@@ -1,0 +1,24 @@
+{
+  "name": "TTV Readme",
+  "version": "1.0",
+  "description": "Auto reading novel with TTS",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "TTV Readme",
+    "default_icon": {
+      "16": "assets/icon/icon16.png",
+      "24": "assets/icon/icon24.png",
+      "32": "assets/icon/icon32.png"
+    },
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "tabs"
+  ]
+}
